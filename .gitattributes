@@ -1,0 +1,2 @@
+# Avoid to show poetry.lock diff
+poetry.lock -diff
