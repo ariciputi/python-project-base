@@ -1,3 +1,8 @@
+# Ad-hoc additions
+
+### Pytest ###
+# xunit output
+pytest-xunit.xml
 
 # Created by https://www.gitignore.io/api/vim,linux,macos,emacs,python,windows,jetbrains,visualstudiocode,virtualenv
 # Edit at https://www.gitignore.io/?templates=vim,linux,macos,emacs,python,windows,jetbrains,visualstudiocode,virtualenv
