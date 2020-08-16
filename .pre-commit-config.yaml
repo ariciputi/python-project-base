@@ -17,4 +17,9 @@ repos:
         entry: poetry run pytest
         language: system
         types: [python]
+    -   id: bandit
+        name: bandit
+        entry: poetry run bandit --recursive src
+        language: system
+        types: [python]
 
