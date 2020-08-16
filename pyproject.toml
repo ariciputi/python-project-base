@@ -23,6 +23,11 @@ toml = "^0.10.0"
 isort = {extras = ["pyproject"], version = "^4.3.21"}
 pylint = "^2.4.4"
 
+[tool.pytest.ini_options]
+minversion = "6.0"
+junit_family = "legacy"
+addopts = "--verbosity=1 --cov=base --cov-report=term-missing --cov-report=xml --junit-xml=pytest-xunit.xml"
+
 [tool.coverage.paths]
 source = ["src",]
 
