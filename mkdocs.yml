@@ -1,0 +1,24 @@
+site_name: My Docs
+
+theme:
+  name: "material"
+  palette:
+    #scheme: slate
+    scheme: default
+    primary: indigo
+    accent: "light blue"
+
+markdown_extensions:
+  - toc:
+      permalink: true
+
+plugins:
+- search
+- mkdocstrings:
+    watch:
+      - src/base/**/*
+
+
+nav:
+  - "Foo": docs.md
+  - api.md
